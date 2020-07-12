@@ -1,0 +1,14 @@
+.name {
+  color: green;
+  padding: {
+    top: 20px;
+  }
+
+  @mixin red() {
+    color: red;
+  }
+
+  .red {
+    @include red;
+  }
+}
